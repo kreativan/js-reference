@@ -14,11 +14,11 @@ var cars = [
 
 // count array
 cars.length;
--> 3
+//-> 3
 
 // get value from array
 cars[1]
--> Volvo
+//-> Volvo
 
 // change value in array
 cars[0] = "Audi";
@@ -59,10 +59,11 @@ var newCars = cars.slice();
 
 // seach for value index in array -> indexOf("value", index_to_start_search_from)
 var result = cars.indexOf("BMW", 0);
--> 2
+//-> 2
+
 // eg:
 console.log("The value is: " + cars[result]);
--> The value is: BMW
+//-> The value is: BMW
 
 // join -> array to string
 var carsArrayToString = cars.join();

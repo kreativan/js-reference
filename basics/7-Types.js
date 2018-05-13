@@ -3,32 +3,33 @@
 -------------------------------------------------------------*/
 var thing = "twelve";
 typeof thing
--> "string"
+//-> "string"
 
 var thing = 12;
 typeof thing
--> "number"
+//-> "number"
 
 var thing = false;
 typeof thing
--> "boolean"
+//-> "boolean"
 
 var thing = {}; // empty object
 typeof thing
--> "object"
+//-> "object"
 
 var thing = []; // empty array
 typeof thing
--> "object" // array is also object
+//-> "object" // array is also object
 
 // check if its really array (true = array)
 var thing = []; // empty array
 typeof thing === "object" && thing.hasOwnProperty('length');
--> true
+//-> true
 
 // null - NaN
 var thing = null;
 typeof thing
--> "object"
+//-> "object"
+
 // use this to check null or NaN
 thing === null;

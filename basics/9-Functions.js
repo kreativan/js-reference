@@ -27,8 +27,7 @@ function foo(speech) {
 }
 // asign function to var
 var bar = foo("you screwy rabbit");
-// result
--> "you scwewy wabbit"
+//-> "you scwewy wabbit"
 
 /*-------------------------------------------------------------
     Anonymus Function
@@ -66,9 +65,9 @@ function isOdd(num) {
 }
 // execute
 isOdd(10);
--> false
+//-> false
 isOdd(15);
--> true
+//-> true
 
 /**
  *  Multiple Arguments
@@ -174,7 +173,7 @@ function transform(obj) {
 // execute
 transform(ivan);
 // reuslt
--> Object { name: "Ivan", job: "Web Dev", from: "Space" }
+//-> Object { name: "Ivan", job: "Web Dev", from: "Space" }
 
 
 /**
@@ -234,8 +233,7 @@ function transformCopy(obj) {
 
 // execute
 transformCopy(ivan);
-// reuslt
--> Object { name: "Ivan", job: "Web Dev", from: "Universe" }
+//-> Object { name: "Ivan", job: "Web Dev", from: "Universe" }
 
 /*-------------------------------------------------------------
    Functions as Objects - function is object
@@ -267,8 +265,7 @@ var obj = {
 }
 // execute
 obj.function();
-// result
--> "Hi, im a function isndide an object";
+//-> "Hi, im a function isndide an object";
 
 /*-------------------------------------------------------------
     Scope
@@ -290,10 +287,12 @@ function randomizer(limit) {
 
 // execute
 randomizer(10);
-// result
+
+/** result
 -> myNum is 7
 -> Global myNum is 32
 -> 7
+*/
 
 /**
  *  Lets remove var, so we modify global myNum variable
@@ -316,7 +315,9 @@ function randomizer(limit) {
 
 // execute
 randomizer(10);
-// result
+
+/** result
 -> myNum is 6
 -> Global myNum is 6
 -> 6
+*/

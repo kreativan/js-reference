@@ -2,7 +2,7 @@
     Closures
 -------------------------------------------------------------*/
 /**
- *  Fuction inside a fuction can have acces to the paretn function vars,
+ *  Fuction inside a fuction can have acces to the parent function vars,
  *  thats closures!
  *
  */

@@ -32,12 +32,14 @@ for (var p in pageNames) {
 }
 
 // result:
+/**
 ->  0 is Home
 ->  1 is About Us
 ->  2 is Contact Us
 ->  3 is News
 ->  4 is Blog
 ->  5 is JavaScript
+*/
 
 /**
  *  Iritate over an object
@@ -61,11 +63,13 @@ for (var p in pages) {
 }
 
 // result:
+/**
 ->  one is Home
 ->  two is About Us
 ->  tree is News
 ->  four is Blog
 ->  five is Contact Us
+*/
 
 /*-------------------------------------------------------------
     While

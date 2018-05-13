@@ -2,13 +2,13 @@
 # Comparison
 -------------------------------------------------------------*/
 1 === 1
--> true
+//-> true
 1 !== 1
--> false
+//-> false
 1 < 2
--> true
+//-> true
 1 > 2
--> false
+//-> false
 
 /*-------------------------------------------------------------
 # Operators
@@ -20,9 +20,9 @@
  *
  */
 20 % 2
--> 0
+//-> 0
 19 % 2
--> 1
+//-> 1
 
 /**
  *  increasement
@@ -30,7 +30,8 @@
  */
 var counter  = 0;
 counter = counter + 1;
--> 1
+//-> 1
+
 // shorthand
 counter += 1;
 // or
@@ -52,20 +53,20 @@ var animal2 = "bear";
 var animal3 = "tiger";
 
 animal1 == "monkey" && animal2 == "bear"
--> true
+//-> true
 animal1 == "ape" && animal2 == "bear"
--> false
+//-> false
 animal1 == "ape" || animal2 == "bear"
--> true
+//-> true
 
 // && are always evaluated before ||
 animal1 == "ape" || animal2 == "bear" && animal3 == "tiger"
--> true
+//-> true
 
 // NOT
 !(animal1 === "monkey")
--> false
+//-> false
 !(animal1 === "ape")
--> true
+//-> true
 !(animal1 === "ape" && animal2 === "tiger")
--> true
+//-> true
