@@ -17,3 +17,24 @@ buttons.forEach(function(e) {
         console.log(this.getAttribute("data"));
     });
 });
+
+
+/* ----------------------------------------------------------
+    Event Delegation
+---------------------------------------------------------- */
+/**
+ *  Events on dynamically added elements
+ *  
+ *  We are adding event listener on a parent element and then target it child
+ *  with element.target
+ * 
+ */
+<ul id="list">
+    <li>Item 1</li>
+    <li>Item 2</li>
+</ul>
+
+var click = document.querySelector("#list");
+click.addEventListener("click", function (e) {
+    console.log(e.target.innerHTML);
+});
