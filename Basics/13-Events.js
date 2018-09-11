@@ -36,6 +36,7 @@ buttons.forEach(function(e) {
 
 var click = document.querySelector("#list");
 click.addEventListener("click", function (e) {
+	// check if target is <li>
 	if(e.target && e.target.nodeName == "LI") {
 		console.log(e.target.innerHTML);
 	}
