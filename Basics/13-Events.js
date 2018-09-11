@@ -36,5 +36,7 @@ buttons.forEach(function(e) {
 
 var click = document.querySelector("#list");
 click.addEventListener("click", function (e) {
-    console.log(e.target.innerHTML);
+	if(e.target && e.target.nodeName == "LI") {
+		console.log(e.target.innerHTML);
+	}
 });
